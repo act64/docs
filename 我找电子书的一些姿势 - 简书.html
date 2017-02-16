@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!--[if IE 6]><html class="ie lt-ie8"><![endif]-->
+<!--[if IE 7]><html class="ie lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="ie ie8"><![endif]-->
+<!--[if IE 9]><html class="ie ie9"><![endif]-->
+<!--[if !IE]><!-->
+<html><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<script type="text/javascript" src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/1255494d3a"></script><script src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/nr-1016.js"></script><script src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/push.js"></script><script async="" src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"1255494d3a","applicationID":"15702971","transactionName":"e1daR0JWVV9RER9ZWkxdRxxDUVZE","queueTime":3,"applicationTime":114,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="description" content="近日找几本电子书找得心累，总结一下我遇到的可以找电子书的网站。 零、Google、百度 这种搜索引擎总会用吧？ 一、网盘搜索 通用网盘搜索很多： http://www.zhaofile.com/ http://www.ibying.com/ http://www.pansou.com/ http://www.baidu10.net/ http://www.daysou.com/ http:/...">
+  <meta property="wb:webmaster" content="294ec9de89e7fadb">
+  <meta property="qc:admins" content="104102651453316562112116375">
+  <meta property="qc:admins" content="11635613706305617">
+  <meta property="qc:admins" content="1163561616621163056375">
+  <meta name="google-site-verification" content="cV4-qkUJZR6gmFeajx_UyPe47GW9vY6cnCrYtCHYNh4">
+  <meta name="google-site-verification" content="HF7lfF8YEGs1qtCE-kPml8Z469e2RHhGajy6JPVy5XI">
+  <meta http-equiv="mobile-agent" content="format=html5; url=http://www.jianshu.com/p/309b26463ba6">
+    <!--  Meta for Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id=888237539, app-argument=jianshu://notes/9210321">
+  <!-- End -->
+
+  <!--  Meta for Twitter Card -->
+  <meta content="summary" property="twitter:card">
+  <meta content="@jianshucom" property="twitter:site">
+  <meta content="我找电子书的一些姿势" property="twitter:title">
+  <meta content="近日找几本电子书找得心累，总结一下我遇到的可以找电子书的网站。 零、Google、百度 这种搜索引擎总会用吧？ 一、网盘搜索 通用网盘搜索很多： http://www.zhaofile.com/ http://www.ibying.com/ http://www.pansou.com/ http://www.baidu10.net/ http://www.daysou.com/ http://www.panc.cc/ http://www.xilinjie.com/ http://kaopu.so 二、一般书籍 鸠摩搜书 一个专门搜索书籍的搜索引擎，大家都知道的。推荐指数：5星 威锋网 ..." property="twitter:description">
+  <meta content="http://www.jianshu.com/p/309b26463ba6" property="twitter:url">
+  <!-- End -->
+
+  <!--  Meta for OpenGraph -->
+  <meta property="fb:app_id" content="865829053512461">
+  <meta property="og:site_name" content="简书">
+  <meta property="og:title" content="我找电子书的一些姿势">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.jianshu.com/p/309b26463ba6">
+  <meta property="og:description" content="近日找几本电子书找得心累，总结一下我遇到的可以找电子书的网站。 零、Google、百度 这种搜索引擎总会用吧？ 一、网盘搜索 通用网盘搜索很多： http://www.zhaofile.com/...">
+  <!-- End -->
+
+  <!--  Meta for Facebook Applinks -->
+  <meta property="al:ios:url" content="jianshu://notes/9210321">
+  <meta property="al:ios:app_store_id" content="888237539">
+  <meta property="al:ios:app_name" content="简书">
+
+  <meta property="al:android:url" content="jianshu://notes/9210321">
+  <meta property="al:android:package" content="com.jianshu.haruki">
+  <meta property="al:android:app_name" content="简书">
+  <!-- End -->
+
+  <title>我找电子书的一些姿势 - 简书</title>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="YEDHOoolTi8/ZktbrLIDIgVNJdT1USM43UtzoF5YpwZiPH+LRa8nsVWsWZ8R9SYI4sPinMT0D5dwGC8FnHa2Sw==">
+  <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" media="all" href="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/web-4ad9009e9687cde3ddd9.css">
+  
+  <link rel="stylesheet" media="all" href="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/entry-4ad9009e9687cde3ddd9.css">
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if IE 8]><link rel="stylesheet" media="all" href="http://cdn-qn0.jianshu.io/assets/scaffolding/for_ie-7f1c477ffedc13c11315103e8787dc6c.css" /><![endif]-->
+  <!--[if lt IE 9]><link rel="stylesheet" media="all" href="http://cdn-qn0.jianshu.io/assets/scaffolding/for_ie-7f1c477ffedc13c11315103e8787dc6c.css" /><![endif]-->
+  <link href="http://baijii-common.b0.upaiyun.com/icons/favicon.ico" rel="icon">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/57.png" sizes="57x57">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/72.png" sizes="72x72">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/76.png" sizes="76x76">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/114.png" sizes="114x114">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/120.png" sizes="120x120">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/152.png" sizes="152x152">
+</head>
+
+  <body class="reader-black-font" lang="zh-CN">
+    <!-- 全局顶部导航栏 -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="width-limit">
+    <!-- 左上方 Logo -->
+    <a class="logo" href="http://www.jianshu.com/"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/logo-58fd04f6f0de908401aa561cda6a0688.png" alt="Logo"></a>
+
+    <!-- 右上角 -->
+      <!-- 登录显示写文章 -->
+      <a class="btn write-btn" target="_blank" href="http://www.jianshu.com/writer#/">
+        <i class="iconfont ic-write"></i>写文章
+</a>
+    <!-- 如果用户登录，显示下拉菜单 -->
+      <div class="user">
+        <div data-hover="dropdown">
+          <a class="avatar" href="http://www.jianshu.com/u/7e9254153fc3"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/1058fc417fb9_002.jpeg" alt="100"></a>
+        </div>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="http://www.jianshu.com/u/7e9254153fc3">
+              <i class="iconfont ic-navigation-profile"></i><span>我的主页</span>
+</a>          </li>
+          <li>
+            <!-- TODO bookmarks_path -->
+            <a href="http://www.jianshu.com/bookmarks">
+              <i class="iconfont ic-navigation-mark"></i><span>收藏的文章</span>
+</a>          </li>
+          <li>
+            <a href="http://www.jianshu.com/users/7e9254153fc3/liked_notes">
+              <i class="iconfont ic-navigation-like"></i><span>喜欢的文章</span>
+</a>          </li>
+          <li>
+            <a href="http://www.jianshu.com/wallet">
+              <i class="iconfont ic-navigation-wallet"></i><span>我的钱包</span>
+</a>          </li>
+          <li>
+            <a href="http://www.jianshu.com/settings">
+              <i class="iconfont ic-navigation-settings"></i><span>设置</span>
+</a>          </li>
+          <li>
+            <a href="http://www.jianshu.com/contact">
+              <i class="iconfont ic-navigation-feedback"></i><span>帮助与反馈</span>
+</a>          </li>
+          <li>
+            <a rel="nofollow" data-method="delete" href="http://www.jianshu.com/sign_out">
+              <i class="iconfont ic-navigation-signout"></i><span>退出</span>
+</a>          </li>
+        </ul>
+      </div>
+
+    <div class="style-mode"><a class="style-mode-btn"><i class="iconfont ic-navigation-mode"></i></a> <div class="popover-modal" style="left: 0px; display: none;"><div class="meta"><i class="iconfont ic-navigation-night"></i><span>夜间模式</span></div> <div class="switch day-night-group"><a class="switch-btn">开</a> <a class="switch-btn active">关</a></div> <hr> <div class="switch font-family-group"><a class="switch-btn font-song">宋体</a> <a class="switch-btn font-hei active">黑体</a></div> <div class="switch"><a class="switch-btn active">简</a> <a class="switch-btn">繁</a></div></div></div>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav">
+            <li class="">
+              <a href="http://www.jianshu.com/">
+                <span class="menu-text">发现</span><i class="iconfont ic-navigation-discover menu-icon"></i>
+</a>            </li>
+            <li class="">
+              <a href="http://www.jianshu.com/subscriptions">
+                <span class="menu-text">关注</span><i class="iconfont ic-navigation-follow menu-icon"></i>
+</a>            </li>
+            <li class="notification"><a data-hover="dropdown" href="http://www.jianshu.com/notifications" class="notification-btn"><span class="menu-text">消息</span> <i class="iconfont ic-navigation-notification menu-icon"></i> <!----> <span class="badge">2</span></a> <ul class="dropdown-menu"><li><a href="http://www.jianshu.com/notifications#/comments"><i class="iconfont ic-comments"></i> <span>评论</span> <!----></a></li><li><a href="http://www.jianshu.com/notifications#/chats"><i class="iconfont ic-chats"></i> <span>简信</span> <span class="badge">2</span></a></li><li><a href="http://www.jianshu.com/notifications#/requests"><i class="iconfont ic-requests"></i> <span>投稿请求</span> <!----></a></li><li><a href="http://www.jianshu.com/notifications#/likes"><i class="iconfont ic-likes"></i> <span>喜欢和赞</span> <!----></a></li><li><a href="http://www.jianshu.com/notifications#/follows"><i class="iconfont ic-follows"></i> <span>关注</span> <!----></a></li><li><a href="http://www.jianshu.com/notifications#/money"><i class="iconfont ic-money"></i> <span>赞赏</span> <!----></a></li><li><a href="http://www.jianshu.com/notifications#/others"><i class="iconfont ic-others"></i> <span>其他消息</span> <!----></a></li></ul></li>
+          <li class="search">
+            <form target="_blank" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" value="✓" type="hidden">
+              <input name="q" id="q" placeholder="搜索" class="search-input" type="text">
+              <a class="search-btn" href="javascript:void(null)"><i class="iconfont ic-search"></i></a>
+              <!-- <div id="navbar-trending-search"></div> -->
+</form>          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="note">
+  <div class="post">
+    <div class="article">
+        <h1 class="title">我找电子书的一些姿势</h1>
+
+        <!-- 作者区域 -->
+        <div class="author">
+          <a class="avatar" href="http://www.jianshu.com/u/e213f00c7c35">
+            <img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/cfcf5b42-6e3f-47ab-a901-fc0c8a6e27be.gif" alt="144">
+</a>          <div class="info">
+            <span class="tag">作者</span>
+            <span class="name"><a href="http://www.jianshu.com/u/e213f00c7c35">左蓝</a></span>
+            <!-- 关注用户按钮 -->
+            <a class="btn btn-success follow"><i class="iconfont ic-follow"></i><span>关注</span></a>
+            <!-- 文章数据信息 -->
+            <div class="meta">
+              <span class="publish-time">2017.02.15 23:03</span>
+              <span class="wordage">字数 1250</span>
+            <span class="views-count">阅读 1889</span><span class="comments-count">评论 25</span><span class="likes-count">喜欢 327</span></div>
+          </div>
+          <!-- 如果是当前作者，加入编辑按钮 -->
+        </div>
+        <!-- -->
+
+        <!-- 文章内容 -->
+        <div class="show-content">
+          <blockquote><p>近日找几本电子书找得心累，总结一下我遇到的可以找电子书的网站。</p></blockquote>
+<h1>零、Google、百度</h1>
+<p>这种搜索引擎总会用吧？</p>
+<h1>一、网盘搜索</h1>
+<p>通用网盘搜索很多：</p>
+<ul>
+<li><a href="http://www.zhaofile.com/" target="_blank">http://www.zhaofile.com/</a></li>
+<li><a href="http://www.ibying.com/" target="_blank">http://www.ibying.com/</a></li>
+<li><a href="http://www.pansou.com/" target="_blank">http://www.pansou.com/</a></li>
+<li><a href="http://www.baidu10.net/" target="_blank">http://www.baidu10.net/</a></li>
+<li><a href="http://www.daysou.com/" target="_blank">http://www.daysou.com/</a></li>
+<li><a href="http://www.panc.cc/" target="_blank">http://www.panc.cc/</a></li>
+<li><a href="http://www.xilinjie.com/" target="_blank">http://www.xilinjie.com/</a></li>
+<li><a href="http://kaopu.so/" target="_blank">http://kaopu.so</a></li>
+</ul>
+<hr>
+<h1>二、一般书籍</h1>
+<h2><a href="https://www.jiumodiary.com/" target="_blank">鸠摩搜书</a></h2>
+<p>一个专门搜索书籍的搜索引擎，大家都知道的。<br>推荐指数：5星</p>
+<h2><a href="http://bbs.feng.com/" target="_blank">威锋网</a></h2>
+<p>这个网站不简单。<br>推荐指数：5星</p>
+<h2><a href="http://www.kindle10000.com/" target="_blank">万读</a></h2>
+<p>很厉害的网站，资源齐全，更新速度快，可惜要积分。<br>推荐指数：4星</p>
+<h2><a href="http://www.kindlepush.com/" target="_blank">Kindle推</a></h2>
+<p>资源齐全，更新速度算是比较快的。<br>推荐指数：4星</p>
+<h2><a href="http://kindbook.cn/" target="_blank">益书网</a></h2>
+<p>更新速度和资源数量都很好，但是要钱。也可以通过分享资源获取积分。<br>推荐指数：4星</p>
+<h2><a href="http://forfrigg.com/" target="_blank">Forfrigg</a></h2>
+<p>另一个搜书的网站。<br>推荐指数：4星半</p>
+<h2><a href="http://zh.bookzz.org/" target="_blank">BookZZ</a></h2>
+<p>号称世界最大的电子书搜索引擎，实际上也就一般般。<br>推荐指数：4星</p>
+<h2><a href="http://www.zhaoshu114.com/index.php" target="_blank">找书网</a></h2>
+<p>又是一个搜书网站。<br>推荐指数：4星</p>
+<h2><a href="http://mebook.cc/" target="_blank">我的小书屋</a></h2>
+<p>资源数量一般般，质量不错。<br>推荐指数：3星</p>
+<h2><a href="http://haodoo.net/" target="_blank">好读</a></h2>
+<p>繁体，下载格式多。资源一般。<br>推荐指数：3星</p>
+<h2><a href="http://blah.me/" target="_blank">Blah书库</a></h2>
+<p>很小的书库。<br>推荐指数：2星</p>
+<h2><a href="https://www.amazon.cn/Kindle%E5%85%8D%E8%B4%B9%E7%94%B5%E5%AD%90%E4%B9%A6/b/ref=sa_menu_kindle_l3_b116175071?ie=UTF8&amp;node=116175071" target="_blank">免费 Kindle 电子书店</a></h2>
+<p>呵呵，免费，亚马逊。<br>推荐指数：2星</p>
+<hr>
+<h1>三、专业方向</h1>
+<h2><a href="http://muchong.com/bbs/" target="_blank">小木虫</a></h2>
+<p>小木虫不小啊。虽然没有比较新的资料，但在专业上无可匹敌。<br>推荐指数：5星</p>
+<h2><a href="https://www.gitbook.com/explore" target="_blank">GitBook</a></h2>
+<p>可以找到一些开源书籍。<br>推荐指数：4星</p>
+<h2><a href="http://www.023wg.com/sort/shuji" target="_blank">重庆网管</a></h2>
+<p>部分电子书收费，但是相比近百元一本的技术书籍还是显得很便宜了。<br>推荐指数：4星</p>
+<h2><a href="https://github.com/it-ebooks/it-ebooks-archive/blob/master/README.md" target="_blank">计算机开放电子书汇总</a></h2>
+<p>别人汇总的资料。</p>
+<h2><a href="https://linuxstory.org/free-chinese-programming-books/" target="_blank">编程类开放书籍荟萃</a></h2>
+<p>还是别人汇总的资料。</p>
+<h2><a href="https://www.zhihu.com/question/38836382" target="_blank">GitHub 上有哪些值得推荐的开源电子书？</a></h2>
+<p>知乎的问题，一大堆大神的回答。</p>
+<h2><a href="http://www.ituring.com.cn/book/ebook?sort=free" target="_blank">图灵社区免费电子书</a></h2>
+<p>整体还是很不错，不过资源少了点，实体书花钱买倒是质量不错。<br>推荐指数：3星</p>
+<hr>
+<h1>四、国学类/古籍</h1>
+<p><a href="http://www.cnpoet.com/" target="_blank">诗人 poet</a> （在线阅读）<br><a href="http://gj.zdic.net/" target="_blank">汉典书籍</a>（在线阅读）<br><a href="https://shuge.org/" target="_blank">有品格的古籍数字图书馆</a><br><a href="http://www.gushiwen.org/" target="_blank">古诗文网</a>（在线阅读）<br><a href="http://ctext.org/zhs" target="_blank">中国哲学书籍电子化计划</a>（在线阅读）<br><a href="http://www.gujiguan.com/" target="_blank">古籍馆</a>（工具）<br><a href="http://wenxian.fanren8.com/" target="_blank">殆知阁</a> （在线阅读）<br><a href="http://www.gxbd.com/" target="_blank">国学宝典</a>（工具）<br><a href="http://www.shigeku.org/" target="_blank">中国诗歌库</a><br><a href="http://www.cadal.zju.edu.cn/index" target="_blank">CADAL</a><br><a href="http://www.guoxue123.com/" target="_blank">国学导航</a><br><a href="http://guji.artx.cn/" target="_blank">中国古籍全录</a>（在线阅读）<br><a href="http://gudian.hengyan.com/" target="_blank">古典文学网</a><br><a href="http://www.cnwxw.com/" target="_blank">中国文学网</a><br><a href="http://www.sidneyluo.net/index.html" target="_blank">漢川草廬</a>（在线阅读）<br><a href="http://www.hytung.cn/Default.aspx" target="_blank">瀚堂典藏</a>（在线阅读）<br><a href="http://book.shufaji.com/" target="_blank">古籍电子书 </a>（在线阅读）<br><a href="http://sangle.web.wesleyan.edu/etext/index.html" target="_blank">Chinese PhilosophicalEtext Archive 中國哲學電文檔案</a>（在线阅读）<br><a href="https://shuge.org/" target="_blank">书格-古籍</a></p>
+<blockquote><p>需要古籍资料问我哇，我网盘有2TB多的古籍资料，哪来的啊喂... ...</p></blockquote>
+<hr>
+<h1>五、英文书籍</h1>
+<p><a href="http://gen.lib.rus.ec/" target="_blank">Library Genesis</a><br><a href="http://www.gutenberg.org/" target="_blank">古登堡计划</a><br><a href="http://www.qcenglish.com/" target="_blank">七彩英语</a><br><a href="http://www.en8848.com.cn/Soft/" target="_blank">小 e 英语</a><br><a href="http://t.cn/RcDBRgD" target="_blank">Baen Free Library</a><br><a href="http://t.cn/z8Zhryq" target="_blank">DigiLibraries</a><br><a href="http://t.cn/RhclElh" target="_blank">epubBooks</a><br><a href="http://t.cn/blzKN" target="_blank">Girlebooks</a><br><a href="http://t.cn/RtLWvHz" target="_blank">MobileRead（MOBI 格式）</a><br><a href="http://t.cn/RINYdCG" target="_blank">MobileRead（EPUB 格式）</a><br><a href="http://t.cn/zO6DttZ" target="_blank">SaltTiger»</a><br><a href="http://t.cn/8sFPePJ" target="_blank">BookDL</a></p>
+<hr>
+<h1>六、微信型分享</h1>
+<p>这类微信号很多，都是第一时间买实体书扫描上传的，已经形成一条“灰色”产业链，我就不推荐了。</p>
+<h1>七、关于盗版电子书</h1>
+<p>基本上市面上的盗版资源最初都是从那些“扫描书商”手上流传出去的。根据设备的不同，他们扫描的书籍质量也都不同。</p>
+<p>比如下面这种手动翻页，逐页拍照型，这种“照片书”制作速度快，基本上刚上市就可以找到这类盗版电子书。<br></p><div class="image-package">
+<img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/137499-bdb567d58dbfdf90.png" data-original-src="http://upload-images.jianshu.io/upload_images/137499-bdb567d58dbfdf90.png?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption">手动翻页拍照型</div>
+</div>
+<p>也有类似下面这种“扫描型”的“分享”，这类电子书制作过程稍慢，一般一个月或者两个月后就可以在“扫描书商”手中获得。</p>
+<div class="image-package">
+<img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/137499-2d3dc2e0f1cb5224.png" data-original-src="http://upload-images.jianshu.io/upload_images/137499-2d3dc2e0f1cb5224.png?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption">扫描型</div>
+</div>
+<p>等到半年，基本上“扫描件”都已经被OCR识别为文字，并经过人工审订了，网上就基本到处都是这种“文字版”的盗版电子书了。（当然也有出版社流出去的原稿。）</p>
+<p>关于看盗版的问题，最近我在“扫描书商”手中买了几本书，之所以没有买实体书是因为这几本书加起来要将近600多块啊，而盗版电子书只需要20块。</p>
+<p>什么时候主流出版物变为电子书时，我们这种穷学生就可以省下很多成本了。</p>
+<hr>
+<p>参考资料：</p>
+<ul>
+<li><a href="https://kindlefere.com/ebook" target="_blank">Kindle伴侣</a></li>
+<li><a href="http://siwingyang.farbox.com/post/qing-bao-sou-ji/20.dian-zi-shu-ji-zi-yuan-zheng-li" target="_blank">电子书籍资源整理</a></li>
+</ul>
+
+        </div>
+        <!--  -->
+
+        <div class="show-foot">
+          <a class="notebook" href="http://www.jianshu.com/nb/9879729">
+            <i class="iconfont ic-search-notebook"></i> <span>日常</span>
+</a>          <div class="copyright" data-toggle="tooltip" data-html="true" data-original-title="转载请联系作者获得授权，并标注“简书作者”。">
+            © 著作权归作者所有
+          </div>
+          <div class="modal-wrap" data-report-note="">
+            <a id="report-modal">举报文章</a>
+          </div>
+        </div>
+    </div>
+
+    <!-- 文章底部作者信息 -->
+        <div class="follow-detail">
+          <div class="info">
+            <a class="avatar" href="http://www.jianshu.com/u/e213f00c7c35">
+              <img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/cfcf5b42-6e3f-47ab-a901-fc0c8a6e27be.gif" alt="144">
+</a>            <a class="btn btn-success follow"><i class="iconfont ic-follow"></i><span>关注</span></a>
+            <a class="title" href="http://www.jianshu.com/u/e213f00c7c35">左蓝</a>
+          <p>写了 82467 字，被 405 人关注，获得了 1698 个喜欢</p></div>
+            <div class="signature">
+              <span>地球 Online 开挂玩家
+日更</span>
+            </div>
+        </div>
+
+      <div class="support-author"><p>打..打赏什么的，我....我才不要呢～～⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄</p> <div class="btn btn-pay">赞赏支持</div> <div class="supporter"><ul class="support-list"><li><a target="_blank" href="http://www.jianshu.com/u/bf34ff6396c8" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/87c485a51b2c_002.jpg"></a></li></ul> <!----></div> <!----> <!----></div>
+
+    <div class="meta-bottom">
+      <div class="like"><div class="btn like-group"><div class="btn-like"><a><i class="iconfont ic-like"></i>喜欢</a></div> <div class="modal-wrap"><a>327</a></div></div> <!----></div>
+      <div class="share-group">
+        <a class="share-circle" data-action="weixin-share" data-toggle="tooltip" data-original-title="分享到微信">
+          <i class="iconfont ic-wechat"></i>
+        </a>
+        <a class="share-circle" data-toggle="tooltip" href="javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f='http://v.t.sina.com.cn/share/share.php?appkey=1881139527',u=z||d.location,p=['&amp;url=',e(u),'&amp;title=',e(t||d.title),'&amp;source=',e(r),'&amp;sourceUrl=',e(l),'&amp;content=',c||'gb2312','&amp;pic=',e(p||'')].join('');function%20a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,'','','http://cwb.assets.jianshu.io/notes/images/9210321/weibo/image_133fb3a01932.jpg',%20'%E6%8E%A8%E8%8D%90%20%E5%B7%A6%E8%93%9D%20%E7%9A%84%E6%96%87%E7%AB%A0%E3%80%8A%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%E3%80%8B%EF%BC%88%20%E5%88%86%E4%BA%AB%E8%87%AA%20@%E7%AE%80%E4%B9%A6%20%EF%BC%89','http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=weibo','%E9%A1%B5%E9%9D%A2%E7%BC%96%E7%A0%81gb2312|utf-8%E9%BB%98%E8%AE%A4gb2312'));" data-original-title="分享到微博">
+          <i class="iconfont ic-weibo"></i>
+        </a>
+          <a class="share-circle" data-toggle="tooltip" href="http://cwb.assets.jianshu.io/notes/images/9210321/weibo/image_133fb3a01932.jpg" target="_blank" data-original-title="下载长微博图片">
+            <i class="iconfont ic-picture"></i>
+          </a>
+        <a class="share-circle more-share" tabindex="0" data-toggle="popover" data-placement="top" data-html="true" data-trigger="focus" href="javascript:void(0);" data-content="
+          &lt;ul class=&quot;share-list&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+e('http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qzone')+'&amp;title='+e('推荐 左蓝 的文章《我找电子书的一些姿势》'),x=function(){if(!window.open(r,'qzone','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-zone&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到QQ空间&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r='https://twitter.com/share?url='+e('http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=twitter')+'&amp;text='+e('推荐 左蓝 的文章《我找电子书的一些姿势》（ 分享自 @jianshucom ）')+'&amp;related='+e('jianshucom'),x=function(){if(!window.open(r,'twitter','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-twitter&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r='https://www.facebook.com/dialog/share?app_id=483126645039390&amp;display=popup&amp;href=http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=facebook',x=function(){if(!window.open(r,'facebook','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-facebook&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r='https://plus.google.com/share?url='+e('http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=google_plus'),x=function(){if(!window.open(r,'google_plus','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-google&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Google+&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:'',r='http://www.douban.com/recommend/?url='+e('http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=douban')+'&amp;title='+e('我找电子书的一些姿势')+'&amp;sel='+e(s)+'&amp;v=1',x=function(){if(!window.open(r,'douban','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r+'&amp;r=1'};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-douban&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到豆瓣&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        " data-original-title="" title="">更多分享</a>
+      </div>
+    </div>
+    <div><div id="comment-list" class="comment-list"><div><form class="new-comment"><a class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/1058fc417fb9.jpeg"></a> <textarea placeholder="写下你的评论..."></textarea> <!----></form></div> <div id="normal-comment-list" class="normal-comment-list"><div><div><div class="top"><span>25条评论</span> <a class="author-only">只看作者</a> <a class="close-btn" style="display: none;">关闭评论</a> <div class="pull-right"><a class="active">按喜欢排序</a><a class="">按时间正序</a><a class="">按时间倒序</a></div></div></div> <!----> <!----> <div id="comment-8041331" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/2cbc8fead852" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/a99b90484da3.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/2cbc8fead852" target="_blank" class="name">欣悦悟之</a> <!----> <div class="meta"><span>11楼 · 2017.02.16 07:18</span></div></div></div> <div class="comment-wrap"><p>大长见识。谢谢</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>2人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8037490" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/bf34ff6396c8" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/87c485a51b2c.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/bf34ff6396c8" target="_blank" class="name">Solari</a> <!----> <div class="meta"><span>2楼 · 2017.02.15 23:12</span></div></div></div> <div class="comment-wrap"><p>先存下来，我感觉作者是大牛，我要和他混～😂</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8041746" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/450557272969" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/e35afe40295b.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/450557272969" target="_blank" class="name">木云栖凤</a> <!----> <div class="meta"><span>13楼 · 2017.02.16 07:42</span></div></div></div> <div class="comment-wrap"><p>实用，get 谢作者</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8041769" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/e9eeb5ebc7e6" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/dfb3b3ec2e4c.jpeg"></a> <div class="info"><a href="http://www.jianshu.com/u/e9eeb5ebc7e6" target="_blank" class="name">自信人</a> <!----> <div class="meta"><span>14楼 · 2017.02.16 07:43</span></div></div></div> <div class="comment-wrap"><p>及时雨</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8041836" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/2923bc70c900" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/49e050ed08e6.jpeg"></a> <div class="info"><a href="http://www.jianshu.com/u/2923bc70c900" target="_blank" class="name">冰火咖啡</a> <!----> <div class="meta"><span>15楼 · 2017.02.16 07:47</span></div></div></div> <div class="comment-wrap"><p>这是找的什么书啊！这么难找</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8041844" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/378c21895d3f" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/d87ee6e52e02.jpeg"></a> <div class="info"><a href="http://www.jianshu.com/u/378c21895d3f" target="_blank" class="name">我是岸</a> <!----> <div class="meta"><span>16楼 · 2017.02.16 07:47</span></div></div></div> <div class="comment-wrap"><p>不错</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8038254" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/e1c9cd452da1" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/e7f074966689.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/e1c9cd452da1" target="_blank" class="name">帅器</a> <!----> <div class="meta"><span>3楼 · 2017.02.15 23:37</span></div></div></div> <div class="comment-wrap"><p>香港很有名的一个老字号书店的老板，被书架砸倒身亡近一个礼拜才被发现。令人唏嘘不已，背后反应的问题是纸媒在落没。。。</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8039950" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/470e67b3d610" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/874a0a5a50d6.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/470e67b3d610" target="_blank" class="name">肉食者鄙</a> <!----> <div class="meta"><span>4楼 · 2017.02.16 01:49</span></div></div></div> <div class="comment-wrap"><p>不错，学习了！</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8039990" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/8a88dcac74b4" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/9eb44672bcee.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/8a88dcac74b4" target="_blank" class="name">呆萌的加菲小喵</a> <!----> <div class="meta"><span>5楼 · 2017.02.16 02:10</span></div></div></div> <div class="comment-wrap"><p>马👍</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8040013" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/141aeeb94ab1" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/8274166d0a7b.jpeg"></a> <div class="info"><a href="http://www.jianshu.com/u/141aeeb94ab1" target="_blank" class="name">奔跑的笨小孩</a> <!----> <div class="meta"><span>6楼 · 2017.02.16 02:27</span></div></div></div> <div class="comment-wrap"><p>能下载吗</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8040148" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/63d5dbb9fa17" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/88e374ce2a15.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/63d5dbb9fa17" target="_blank" class="name">昂扬的生存者</a> <!----> <div class="meta"><span>7楼 · 2017.02.16 04:11</span></div></div></div> <div class="comment-wrap"><p>谢谢分享</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8040668" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/467dc69cf8b3" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/e90ef22ad295.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/467dc69cf8b3" target="_blank" class="name">里里君一枚</a> <!----> <div class="meta"><span>8楼 · 2017.02.16 06:44</span></div></div></div> <div class="comment-wrap"><p>感谢分享💕</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8040775" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/752050fe1901" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/62afcb9f3638.jpeg"></a> <div class="info"><a href="http://www.jianshu.com/u/752050fe1901" target="_blank" class="name">瓦尔登8110</a> <!----> <div class="meta"><span>9楼 · 2017.02.16 06:54</span></div></div></div> <div class="comment-wrap"><p>推荐益书网</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8041308" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/2bb4113051cc" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/9714ce9c-4631-48fc-95e5-2c17449d99d4.jpeg"></a> <div class="info"><a href="http://www.jianshu.com/u/2bb4113051cc" target="_blank" class="name">小虎贴儿</a> <!----> <div class="meta"><span>10楼 · 2017.02.16 07:17</span></div></div></div> <div class="comment-wrap"><p>整理得很细致，谢谢分享。</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8041379" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/2dc5d41eca2a" target="_blank" class="avatar"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/853c1038-7d7d-4829-be45-38f6f91f3213.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/2dc5d41eca2a" target="_blank" class="name">浮尘过隙</a> <!----> <div class="meta"><span>12楼 · 2017.02.16 07:21</span></div></div></div> <div class="comment-wrap"><p>很好，收藏了。</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div> <div class="comments-placeholder" style="display: none;"><div class="author"><div class="avatar"></div> <div class="info"><div class="name"></div> <div class="meta"></div></div></div> <div class="text"></div> <div class="text animation-delay"></div> <div class="tool-group"><i class="iconfont ic-zan-active"></i><div class="zan"></div> <i class="iconfont ic-list-comments"></i><div class="zan"></div></div></div></div></div> <!----> <ul class="pagination"><!---->  <li><a href="javascript:void(null)" class="active">1</a></li> <li><a>2</a></li> <li><a>下一页</a></li></ul></div></div>
+  </div>
+
+  <div class="side-tool">
+    <ul>
+      <li data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="回到顶部">
+        <a href="#"><i class="iconfont ic-backtop"></i></a>
+      </li>
+        <li data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="将文章加入专题">
+          <a class="js-add-to-collection">
+            <i class="iconfont ic-addcollectionmodal"></i>
+          </a>
+        </li>
+        <li data-original-title="取消收藏文章" title="">
+          <a data-action="toggle-bookmark-note" href="javascript:void(null);"><i class="iconfont ic-mark-active"></i></a>        </li>
+      <li data-share-note="" data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="分享文章">
+        <a tabindex="0" data-toggle="popover" data-placement="left" data-html="true" data-trigger="focus" href="javascript:void(0);" data-content="
+          &lt;ul class=&quot;share-list&quot;&gt;
+            &lt;li&gt;&lt;a class data-action=&quot;weixin-share&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-weixin&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到微信&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f='http://v.t.sina.com.cn/share/share.php?appkey=1881139527',u=z||d.location,p=['&amp;url=',e(u),'&amp;title=',e(t||d.title),'&amp;source=',e(r),'&amp;sourceUrl=',e(l),'&amp;content=',c||'gb2312','&amp;pic=',e(p||'')].join('');function%20a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,'','','http://cwb.assets.jianshu.io/notes/images/9210321/weibo/image_133fb3a01932.jpg', '推荐 左蓝 的文章《我找电子书的一些姿势》（ 分享自 @简书 ）','http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=weibo','页面编码gb2312|utf-8默认gb2312'));&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-weibo&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到微博&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;http://cwb.assets.jianshu.io/notes/images/9210321/weibo/image_133fb3a01932.jpg&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-picture&quot;&gt;&lt;/i&gt;&lt;span&gt;下载长微博图片&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+e('http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qzone')+'&amp;title='+e('推荐 左蓝 的文章《我找电子书的一些姿势》'),x=function(){if(!window.open(r,'qzone','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-zone&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到QQ空间&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r='https://twitter.com/share?url='+e('http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=twitter')+'&amp;text='+e('推荐 左蓝 的文章《我找电子书的一些姿势》（ 分享自 @jianshucom ）')+'&amp;related='+e('jianshucom'),x=function(){if(!window.open(r,'twitter','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-twitter&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r='https://www.facebook.com/dialog/share?app_id=483126645039390&amp;display=popup&amp;href=http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=facebook',x=function(){if(!window.open(r,'facebook','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-facebook&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r='https://plus.google.com/share?url='+e('http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=google_plus'),x=function(){if(!window.open(r,'google_plus','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-google&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Google+&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:'',r='http://www.douban.com/recommend/?url='+e('http://www.jianshu.com/p/309b26463ba6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=douban')+'&amp;title='+e('我找电子书的一些姿势')+'&amp;sel='+e(s)+'&amp;v=1',x=function(){if(!window.open(r,'douban','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r+'&amp;r=1'};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-douban&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到豆瓣&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        " data-original-title="" title=""><i class="iconfont ic-share"></i></a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="note-bottom"><div class="main"><div class="title">被以下专题收入，发现更多相似内容</div> <!----> <div class="include-collection"><div class="modal-wrap add-collection-wrap"><a class="add-collection"><i class="iconfont ic-follow"></i><div>我的专题</div></a></div> <a href="http://www.jianshu.com/c/3sT4qY?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/a.png"><div class="name">今日看点</div></a><a href="http://www.jianshu.com/c/NEt52a?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/computer_guy.jpg"><div class="name">程序员</div></a><a href="http://www.jianshu.com/c/4d6fa389a000?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/1486262515.jpg"><div class="name">Android...</div></a><a href="http://www.jianshu.com/c/94294909cd08?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/1-12041QR0330-L.jpg"><div class="name">IT相关</div></a><a href="http://www.jianshu.com/c/76976d393995?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/1468728239.jpg"><div class="name">干货在这里</div></a><a href="http://www.jianshu.com/c/yD9GAd?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/sy_20091020135145113016.jpg"><div class="name">读书</div></a><a href="http://www.jianshu.com/c/eaaefdfcbd7d?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/001ZgXYTzy6LFDy9dXQ6a_690.jpg"><div class="name">写作·阅读</div></a><a href="http://www.jianshu.com/c/aba287640e88?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/1484147770.jpg"><div class="name">生活技能</div></a><a href="http://www.jianshu.com/c/887753882b52?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/android_003.jpeg"><div class="name">干货</div></a><a href="http://www.jianshu.com/c/14e284b54f19?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/1480207061.jpg"><div class="name">方式方法</div></a><a href="http://www.jianshu.com/c/533ee1a494b9?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/android.jpeg"><div class="name">资源平台</div></a><a href="http://www.jianshu.com/c/d7bbefca5d62?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/android_002.jpeg"><div class="name">生活学习</div></a><a href="http://www.jianshu.com/c/09cf6bec0cdf?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/1475281923.jpg"><div class="name">学习方法</div></a></div> <!----></div> <!----> <!----></div>
+
+    <script type="application/json" data-name="page-data">{"user_signed_in":true,"locale":"zh-CN","os":"linux","read_mode":"day","read_font":"font2","current_user":{"id":1589341,"nickname":"战五渣_lei","slug":"7e9254153fc3","avatar":"http://upload.jianshu.io/users/upload_avatars/1589341/1058fc417fb9","unread_counts":{"chats":2,"total":2},"has_editable_collection":false},"note_show":{"is_author":false,"is_following_author":false,"is_liked_note":false,"uuid":"76febe62-f0fb-42e8-97da-886d95ddba58"},"note":{"id":9210321,"slug":"309b26463ba6","user_id":137499,"notebook_id":9879729,"commentable":true,"likes_count":327,"views_count":1889,"public_wordage":1250,"comments_count":25,"author":{"total_wordage":82467,"followers_count":405,"total_likes_count":1698}}}</script>
+    
+    <script src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/babel-polyfill-4ad9009e9687cde3ddd9.js"></script>
+    <script src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/web-base-4ad9009e9687cde3ddd9.js"></script>
+<script src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/web-4ad9009e9687cde3ddd9.js"></script>
+    
+    <script src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/entry-4ad9009e9687cde3ddd9.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35169517-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<div style="display:none">
+  <script src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/z_stat.js" language="JavaScript"></script><script src="%E6%88%91%E6%89%BE%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E5%A7%BF%E5%8A%BF%20-%20%E7%AE%80%E4%B9%A6_files/core.js" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1258679142" target="_blank" title="站长统计">站长统计</a>
+</div>
+
+<script>
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+</script>
+
+  
+
+<!----><!----></body></html>
